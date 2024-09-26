@@ -7,7 +7,7 @@ define(["jquery", "highcharts", "socketio"], function($, Highcharts, io) {
         renderTo: "container"
       },
       title: {
-        text: "CPU Load Average & Memory Usage"
+        text: "CPU Load Average & Memory Usage - Roughly..."
       },
       subtitle: {
         text: "Plotting CPU Load and Memory Info in real-time using websockets."
